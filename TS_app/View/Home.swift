@@ -40,7 +40,7 @@ struct Home: View {
                     
                     // Collection View
                     HStack {
-                        Text("Telescope **Collections**")
+                        Text("**Telescopes** Collection")
                             .font(.system(size: 22))
                         
                         Spacer()
@@ -55,7 +55,7 @@ struct Home: View {
                         .foregroundColor(.black)
                         
                     }
-                    .padding(.horizontal, 120)
+                    .padding(.horizontal, 50)
                     .padding(.vertical, 10)
                     
                     // Product List
