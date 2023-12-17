@@ -78,7 +78,7 @@ var body: some View {
                     .frame(width: 70)
                 
                 Text(product.category)
-                    .font(.system(size: 10))
+                    .font(.system(size: 12))
                     .padding()
                     .background(.white.opacity(0.5))
                     .clipShape(Capsule())
@@ -87,7 +87,7 @@ var body: some View {
                 
                 HStack {
                     Text("$\(product.price).0")
-                        .font(.system(size: 14, weight: .semibold))
+                        .font(.system(size: 13, weight: .semibold))
                     
                     Spacer()
                     
@@ -114,7 +114,7 @@ var body: some View {
         .padding(20)
         .frame(width: 170, height: 215)
     }
-    .frame(width: 170, height: 215)
+    .frame(width: 170, height: 210)
     .background(product.color.opacity(0.13))
     .clipShape(.rect(cornerRadius: 30))
     .padding(.leading, 10)
