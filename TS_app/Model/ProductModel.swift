@@ -28,3 +28,4 @@ var productList = [
     Product(name: "Model 7", category: "Catadioptric", image: "image 7", color: .blue, price: 1000),
     Product(name: "Model 8", category: "Catadioptric", image: "image 8", color: .green, price: 700),
 ]
+
